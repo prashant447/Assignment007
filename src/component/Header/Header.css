@@ -1,12 +1,7 @@
-header{
- width: 90%;
- margin:auto;
 
-  margin-top: 3rem;
-}
 
 nav{
-    background-color: rgb(255, 255, 255);
+   
     display: flex;
     justify-content: space-between;
    
@@ -15,6 +10,10 @@ nav{
 
 .logo{
     width: 30vw;
+}
+
+h2{
+    font-size: 30px;
 }
 
 .menu{
@@ -37,6 +36,7 @@ a{
     font-size: 0.9rem;
     color: rgb(133, 133, 133);
     font-weight: 600;
+    transition: 0.3s linear;
 }
 
 a:hover{
@@ -49,6 +49,7 @@ a:hover{
     border-radius: 50px;
     color: black;
     position: relative;
+    
   
 }
 
@@ -68,6 +69,7 @@ a:hover{
 @media only screen and (max-width: 1165px) {
     nav {
         display: block;
+    
     }
 
     .logo{
@@ -80,15 +82,18 @@ a:hover{
         margin: 2rem;
         text-align: center;
     }
-    .menu {
-        display: block;
-       
-    }
+    
+}
 
+
+@media only screen and (max-width: 527px) {
+    
+    .menu{
+        display: block;
+    }
    
     
-  }
 
- 
+}
 
     

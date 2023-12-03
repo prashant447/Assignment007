@@ -2,6 +2,9 @@ import React from 'react'
 import "./Home.css"
 
 import { HiMiniArrowDownRight } from "react-icons/hi2";
+import img1 from "/src/assets/man.jpg"
+import img2 from "/src/assets/mans.jpg"
+import img3 from "/src/assets/woman.jpg"
 
 
 const Home = () => {
@@ -24,7 +27,7 @@ const Home = () => {
            <div className='section2'>
             <span className='heading'>Pattern </span>
             <button>START GENERATING</button>
-            <p>The Next generation <br/> <b style={{color:"rgb(103 102 102);"}}>Production</b> for Designers</p>
+            <p>The Next generation <br/> <b style={{color:"black"}}>Production</b> for Designers</p>
            </div>
         </div>
         </div>
@@ -37,13 +40,13 @@ const Home = () => {
                 <div className="avatar">
                     <div  className='avatar-pic'>
 
-                    <img src="/src/assets/man.png" alt="" />
-                    <img src="/src/assets/woman.png" alt="" style={{position:"relative", right:"9px"}}/>
-                    <img src="/src/assets/mans.png" alt="" style={{position:"relative", right:"20px"}}/>
+                    <img src= {img1} alt="" />
+                    <img src= {img2} alt="" style={{position:"relative", right:"9px"}}/>
+                    <img src= {img3} alt="" style={{position:"relative", right:"20px"}}/>
                     </div>
 
                     <h3>Learn from best mentors</h3>
-                    <button className='grid1-btn'>START LEARNING<HiMiniArrowDownRight/></button>
+                    <button className='grid1-btn'>START LEARNING<HiMiniArrowDownRight className='gird1-icon'/></button>
                 </div>
 
             </div>
@@ -51,10 +54,10 @@ const Home = () => {
                 <span className='grid-number'>02</span>
 
                  <div className='row2'>
-                <div className="grid2-row">Free Edit <HiMiniArrowDownRight style={{position:"relative", top:"8px", left:"217px"}}/></div>
-                <div className="grid2-row">Intreactive <HiMiniArrowDownRight style={{position:"relative", top:"8px", left:"206px"}}/></div>
-                <div className="grid2-row">Easy Interface <HiMiniArrowDownRight style={{position:"relative", top:"8px", left:"182px"}}/></div>
-                <div className="grid2-row">Compare to other <HiMiniArrowDownRight style={{position:"relative", top:"8px", left:"153px"}}/></div>
+                <div className="grid2-row">Free Edit <HiMiniArrowDownRight className='grid2-icon'/></div>
+                <div className="grid2-row">Interactive <HiMiniArrowDownRight className='grid2-icon'/></div>
+                <div className="grid2-row">Easy interface <HiMiniArrowDownRight className='grid2-icon' /></div>
+                <div className="grid2-row">Compare to other <HiMiniArrowDownRight className='grid2-icon'/></div>
                     </div>    
             </div>
 

@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { IoMdArrowDropdown } from "react-icons/io";
 import "./Header.css";
 
 
 const Header = () => {
+
+  const [isShow, setIsShow] = useState(false)
+
+  const showMenu = () =>{
+       if (isShow == true) {
+        setIsShow(false)
+       } else {
+        setIsShow(true)
+       }
+  }
   return (
     <>
      <header>
@@ -12,8 +22,8 @@ const Header = () => {
         <div className="logo">
            <h2>AIPatrn</h2>
        </div>
-
-       <div className="menu">
+         
+         {isShow && <> <div className="menu">
         <ul>
             <Link to= "#">Home page</Link>
             <Link to= "#">Generator</Link>
@@ -25,12 +35,14 @@ const Header = () => {
             <Link to= "#">About us</Link>
             <Link to= "#">Features</Link>
             <Link to= "#">Collection-2023</Link>
-            <Link to= "#">Carrer</Link>
+            <Link to= "#">Career</Link>
         </ul>
        </div>
+         </>}
+       
 
        <div className='menu-btns'>
-        <Link className='menu-btn'>Menu<IoMdArrowDropdown className='svg1'/></Link>
+        <Link className='menu-btn' onClick={showMenu}>Menu<IoMdArrowDropdown className='svg1'/></Link>
 
        </div>
 

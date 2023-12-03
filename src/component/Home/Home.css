@@ -1,264 +1,235 @@
-.main-section{
-    width: 90%;
-    margin:auto;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem;
-    
-    
+.main-section {
+  padding: 2rem;
 }
 
-
-
-
-
-p{
-    color: rgb(103 102 102);
-    font-weight: 600;
+p {
+  color: rgb(103 102 102);
+  font-weight: 600;
 }
-h1{
-    font-weight: 600;
-    font-size: 3rem;
-    color:  black;
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: black;
 }
 
-.heading{
-    font-weight: 600;
-    font-size: 3rem;
-   color:  black;
+.heading {
+  font-weight: 600;
+  font-size: 3rem;
+  color: black;
 }
 
-button{
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-size: 0.7rem;
-    cursor: pointer;
-    font-weight: 600;
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-weight: 600;
 }
 
-.section2{
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-}
-   
-.section3{
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 350px 350px 1fr;
-    
-    gap: 0.5rem;
-    background-color: white;
-    margin-bottom: 5rem;
-   
-  
+.section2 {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 
-.grid1{
-   background: url("/src/assets/img3.jpg") no-repeat;
-   height: 70vh;
-    background-size: cover;
-    padding: 1.2rem;
-    position: relative;
-    background-position: center center;
+.section3 {
+  display: grid;
+  grid-template-columns: 350px 350px 1fr;
+
+  gap: 0.5rem;
+
+  margin-bottom: 5rem;
 }
 
-.grid-number{
-    color: white;
-    font-size: 1.3rem;
-    font-weight: 500;
-    border: 1px solid white;
-    border-radius: 30px;
-   padding: 2px 15px;
+.grid1 {
+  background: url("/src/assets/img3.jpg") no-repeat;
+  height: 400px;
+  background-size: cover;
+  padding: 1.2rem;
+  position: relative;
+  background-position: center center;
 }
 
-.avatar{
-    position: absolute;
-    bottom: 35px;
-    display: flex;
-    flex-direction: column;
-   
+.grid-number {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 2px 15px;
 }
 
-
-
-h3{
-    color: white;
-    font-weight: 500;
-    font-size: 20px;
+.avatar {
+  position: absolute;
+  bottom: 35px;
+  display: flex;
+  flex-direction: column;
 }
 
-.grid1-btn{
-    
-     font-size: 15px;
-     border-radius: 30px;
-     padding: 10px 0;
-     border: 1px solid white;
-     margin-top: 10px;
-     
-     background-color: rgba(128, 128, 128, 0.392);
-    
+h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-svg{
-    font-size: 23px;
-    bottom: 9px;
-    right: 25px;
-    color: white;
-    position: absolute;
+.grid1-btn {
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 10px 0;
+  border: 1px solid white;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(166 166 166 / 42%);
 }
 
-
-
-
-
-
-img{
-    width: 40px;
+svg.gird1-icon {
+  font-size: 23px;
+  bottom: 9px;
+  right: 25px;
+  color: white;
+  position: absolute;
 }
 
-h3{
-    padding: 0.7rem 0;
+img {
+  width: 40px;
 }
 
-   
-    
-
-.grid2{
-    background: url("/src/assets/img8.jpg") no-repeat;
-    height: 70vh;
-     background-size: cover;
-    background-position: center center;
-    padding: 1.2rem;
-    position: relative;
- }
-
- .row2{
-    position: absolute;
-    bottom: 20px;
-    cursor: pointer;
- }
-
- .grid2-row{
-   color: white;
-   border-bottom: 1px solid rgba(230, 230, 230, 0.697);
-   width: 315px;
-   padding: 0.5rem 0;
+h3 {
+  padding: 0.7rem 0;
 }
 
+.grid2 {
+  background: url("/src/assets/img8.jpg") no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  padding: 1.2rem;
+  position: relative;
+}
 
-hr{
-     margin: 10px 0;
-    width: 310px;
-    color: grey;
-    
- }
+.row2 {
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
 
- .grid3{
-    background: url("/src/assets/img1.jpg") no-repeat;
-    height: 70vh;
-     background-size: cover;
-    
-     padding: 1.2rem;
-     position: relative;
- }
+.grid2-row {
+  color: white;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.697);
+  width: 20vw;
+  padding: 0.5rem 0;
+  position: relative;
+}
 
+.grid2-icon {
+  position: absolute;
 
+  font-size: 23px;
 
- .row3{
-    position: absolute;
-    bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 0 2rem;
- }
+  right: 0;
+  color: white;
+}
 
- .grid3-heading{
-    color:white;
-    font-size:75px;
-     font-weight:500;
- }
+hr {
+  margin: 10px 0;
+  width: 310px;
+  color: grey;
+}
 
- .grid3-para{
-    color:white;
-    font-size:15px
- }
+.grid3 {
+  background: url("/src/assets/img1.jpg") no-repeat;
+  height: 400px;
+  background-size: cover;
 
+  padding: 1.2rem;
+  position: relative;
+}
 
+.row3 {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+}
 
- @media only screen and (max-width: 1219px) {
-    .grid3-heading {
-       
-        font-size: 45px;
-        
-    }
+.grid3-heading {
+  color: white;
+  font-size: 75px;
+  font-weight: 500;
+}
 
-    .grid3-para {
-      
-        font-size: 12px;
-    }
-   
-    
+.grid3-para {
+  color: white;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1219px) {
+  .grid3-heading {
+    font-size: 45px;
   }
 
-
-  @media only screen and (max-width: 1069px) {
-    .section3 {
-       
-        display: block;
-        
-       
-    }
+  .grid3-para {
+    font-size: 12px;
   }
 
-  @media only screen and (max-width: 710px) {
-    h1 {
-        
-        font-size: 1.7rem;
-       
-    }
-    .heading {
-       
-        font-size: 1.7rem;
-       
-    }
+  .grid2-row {
+    width: 300px;
+  }
+}
 
-    button {
-       
-        padding: 10px 20px;
-       
-        font-size: 0.5rem;
-        
-    }
-    p {
-        font-size: 10px;
-    }
+@media only screen and (max-width: 1069px) {
+  .section3 {
+    display: block;
   }
 
-  @media only screen and (max-width: 490px) {
-    .section2 {
-        display: block;
-    }
-    h1 {
-        font-size: 1.7rem;
-    }
-    .heading {
-        font-size: 1.7rem;
-    }
+  .grid2-row {
+    width: 95vw;
+  }
+}
 
-    p {
-        font-size: 10px;
-        margin: 6px 0;
-    }
-
-   
+@media only screen and (max-width: 710px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+  .heading {
+    font-size: 1.7rem;
   }
 
+  button {
+    padding: 10px 20px;
 
+    font-size: 0.5rem;
+  }
+  p {
+    font-size: 10px;
+  }
+}
 
+@media only screen and (max-width: 592px) {
+  .grid2-row {
+    width: 90vw;
+  }
+}
 
+@media only screen and (max-width: 490px) {
+  .section2 {
+    display: block;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 10px;
+    margin: 6px 0;
+  }
+}
