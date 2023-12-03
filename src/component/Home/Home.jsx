@@ -5,6 +5,7 @@ import { HiMiniArrowDownRight } from "react-icons/hi2";
 import img1 from "/src/assets/man.jpg";
 import img2 from "/src/assets/mans.jpg";
 import img3 from "/src/assets/woman.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -17,13 +18,13 @@ const Home = () => {
             </div>
             <div>
               <h1>
-                Creative Projects with <br /> the Ultimate AI-Powered{" "}
+                Creative Projects with <br /> the Ultimate AI-Powered
               </h1>
             </div>
 
             <div className="section2">
               <span className="heading">Pattern </span>
-              <button>START GENERATING</button>
+              <Link to="generating"><button>START GENERATING</button></Link>
               <p>
                 The Next generation <br />{" "}
                 <b style={{ color: "black" }}>Production</b> for Designers
@@ -52,8 +53,8 @@ const Home = () => {
               </div>
 
               <h3>Learn from best mentors</h3>
-              <button className="grid1-btn">
-                START LEARNING
+              <button className="grid1-btn"><Link to="/course" style={{color:"white"}}>START LEARNING</Link>
+                
                 <HiMiniArrowDownRight className="gird1-icon" />
               </button>
             </div>
@@ -63,16 +64,16 @@ const Home = () => {
 
             <div className="row2">
               <div className="grid2-row">
-                Free Edit <HiMiniArrowDownRight className="grid2-icon" />
+                Free Edit <Link to="/free-edit"><HiMiniArrowDownRight className="grid2-icon" /></Link>
               </div>
               <div className="grid2-row">
-                Interactive <HiMiniArrowDownRight className="grid2-icon" />
+                Interactive <Link to="/interactive"><HiMiniArrowDownRight className="grid2-icon" /></Link>
               </div>
               <div className="grid2-row">
-                Easy interface <HiMiniArrowDownRight className="grid2-icon" />
+                Easy interface <Link to="/easyinterface"><HiMiniArrowDownRight className="grid2-icon" /></Link>
               </div>
               <div className="grid2-row">
-                Compare to other <HiMiniArrowDownRight className="grid2-icon" />
+                Compare to other <Link to="/compare"><HiMiniArrowDownRight className="grid2-icon" /></Link>
               </div>
             </div>
           </div>

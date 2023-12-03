@@ -9,7 +9,10 @@ const App = () => {
         <div className="container">
         <BrowserRouter>
           <Header />
-           <Home/>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+          </Routes>
+          
         </BrowserRouter>
         </div>
       

@@ -18,7 +18,7 @@ const Header = () => {
       <header>
         <nav>
           <div className="logo">
-            <h2>AIPatrn</h2>
+           <Link style={{color:"black"}} to="/"><h2>AIPatrn</h2></Link>  
           </div>
 
           {isShow && (
@@ -26,17 +26,17 @@ const Header = () => {
               
               <div className="menu">
                 <ul>
-                  <Link to="#">Home page</Link>
-                  <Link to="#">Generator</Link>
-                  <Link to="#">Pricing-plan</Link>
-                  <Link to="#">Blog-News</Link>
+                  <Link to="/">Home page</Link>
+                  <Link to="/generator">Generator</Link>
+                  <Link to="/pricing-plan">Pricing-plan</Link>
+                  <Link to="/blognews">Blog-News</Link>
                 </ul>
 
                 <ul>
-                  <Link to="#">About us</Link>
-                  <Link to="#">Features</Link>
-                  <Link to="#">Collection-2023</Link>
-                  <Link to="#">Career</Link>
+                  <Link to="about">About us</Link>
+                  <Link to="features">Features</Link>
+                  <Link to="/collection">Collection-2023</Link>
+                  <Link to="career">Career</Link>
                 </ul>
               </div>
             </>
